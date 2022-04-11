@@ -74,6 +74,10 @@ Button.propTypes = {
   href: propTypes.string,
   target: propTypes.string,
   className: propTypes.string,
+<<<<<<< Updated upstream
+=======
+  isPrimary: propTypes.bool,
+>>>>>>> Stashed changes
   isExternal: propTypes.bool,
   isDisabled: propTypes.bool,
   isLoading: propTypes.bool,

@@ -3,6 +3,7 @@ import React from 'react'
 import Button from 'elements/Button'
 import BrandIcon from 'parts/IconText'
 export default function Header(props) {
+<<<<<<< Updated upstream
 
     const getNavLinkClass = (path) => {
         return props.location.pathname === path ? " active" : "";
@@ -10,6 +11,14 @@ export default function Header(props) {
 
   return (
     <header className="spacing-sm">
+=======
+    const getNavLinkClass = (path) => {
+      return props.location.pathname === path ? " active" : "";
+    };
+
+  return (
+<header className="spacing-sm">
+>>>>>>> Stashed changes
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             <BrandIcon />

@@ -11,7 +11,11 @@
   word-wrap: break-word;
   background-color: $card-bg;
   background-clip: border-box;
+<<<<<<< Updated upstream
   border: $card-border-width solid $card-border-color;
+=======
+  // border: $card-border-width solid $card-border-color;
+>>>>>>> Stashed changes
   @include border-radius($card-border-radius);
 
   > hr {
@@ -98,7 +102,10 @@
   }
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 //
 // Header navs
 //
@@ -142,7 +149,10 @@
   @include border-bottom-radius($card-inner-border-radius);
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 // Card deck
 
 .card-deck {
@@ -166,7 +176,10 @@
   }
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 //
 // Card groups
 //
@@ -229,7 +242,10 @@
   }
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 //
 // Columns
 //
@@ -252,7 +268,10 @@
   }
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 //
 // Accordion
 //

@@ -16,7 +16,12 @@
   user-select: none;
   background-color: transparent;
   border: $btn-border-width solid transparent;
+<<<<<<< Updated upstream
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+=======
+  min-height: 50px;
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, 4px);
+>>>>>>> Stashed changes
   @include transition($btn-transition);
 
   @include hover() {
@@ -45,6 +50,13 @@
       @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
     }
   }
+<<<<<<< Updated upstream
+=======
+//button shadow
+  &.btn-shadow{
+    box-shadow: 0px 8px 15px rgba($primary, 0.3);
+  }
+>>>>>>> Stashed changes
 }
 
 // Future-proof disabling of clicks on `<a>` elements
