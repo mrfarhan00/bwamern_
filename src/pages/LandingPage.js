@@ -1,13 +1,3 @@
-<<<<<<< Updated upstream
-import React, { Component } from 'react'
-
-import Header from 'parts/Header'
-export default class LandingPage extends Component {
-  render() {
-    return (
-      <>
-        <Header {...this.props}></Header>
-=======
 import React, { Component } from "react";
 
 import Header from "parts/Header";
@@ -28,7 +18,6 @@ export default class LandingPage extends Component {
         <Hero refMostPicked={this.refMostPicked} data={landingPage.hero} />
         <MostPicked refMostPicked={this.refMostPicked} data={landingPage.mostPicked} />
         <Categories data={landingPage.categories} />
->>>>>>> Stashed changes
       </>
     );
   }

@@ -15,7 +15,7 @@ export default function Button(props) {
   };
 
   if (props.isDisabled || props.isLoading) {
-    if(props.isDisabled) className.push("disabled")
+    if (props.isDisabled) className.push("disabled");
     return (
       <span className={className.join(" ")} style={props.style}>
         {props.isLoading ? (
@@ -24,7 +24,7 @@ export default function Button(props) {
             <span className="sr-only">Loading...</span>
           </>
         ) : (
-        props.children
+          props.children
         )}
       </span>
     );
@@ -37,7 +37,7 @@ export default function Button(props) {
           href={props.href}
           className={className.join(" ")}
           style={props.style}
-          target={props.target === "_blank" ?"_blank" : undefined}
+          target={props.target === "_blank" ? "_blank" : undefined}
           rel={props.target === "_blank" ? "noopener noreferrer" : undefined}
         >
           {props.children}
@@ -45,12 +45,7 @@ export default function Button(props) {
       );
     } else {
       return (
-        <Link
-          to={props.href}
-          className={className.join(" ")}
-          style={props.style}
-          onClick={onClick}
-        >
+        <Link to={props.href} className={className.join(" ")} style={props.style} onClick={onClick}>
           {props.children}
         </Link>
       );
@@ -58,11 +53,7 @@ export default function Button(props) {
   }
 
   return (
-    <button
-      className={className.join(" ")}
-      style={props.style}
-      onClick={onClick}
-    >
+    <button className={className.join(" ")} style={props.style} onClick={onClick}>
       {props.children}
     </button>
   );
@@ -74,10 +65,7 @@ Button.propTypes = {
   href: propTypes.string,
   target: propTypes.string,
   className: propTypes.string,
-<<<<<<< Updated upstream
-=======
   isPrimary: propTypes.bool,
->>>>>>> Stashed changes
   isExternal: propTypes.bool,
   isDisabled: propTypes.bool,
   isLoading: propTypes.bool,
