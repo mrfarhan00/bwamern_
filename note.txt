@@ -1,0 +1,5 @@
+imp = import
+
+rfc = export
+
+ctrl + d = cari text berdasarkan klik
